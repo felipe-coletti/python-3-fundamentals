@@ -73,7 +73,7 @@
 - Exercise 50 - [Adding even numbers](https://github.com/felipe-coletti/python-course/blob/main/module-002/exercise-015.py)
 - Exercise 51 - [Arithmetic progression v1.0](https://github.com/felipe-coletti/python-course/blob/main/module-002/exercise-016.py)
 - Exercise 52 - [Prime numbers](https://github.com/felipe-coletti/python-course/blob/main/module-002/exercise-017.py)
-- Exercise 53 - [Check if a number is a palindrome](https://github.com/felipe-coletti/python-course/blob/main/module-002/exercise-018.py)
+- Exercise 53 - [Check if a number is a capicua](https://github.com/felipe-coletti/python-course/blob/main/module-002/exercise-018.py)
 - Exercise 54 - [Age of majority](https://github.com/felipe-coletti/python-course/blob/main/module-002/exercise-019.py)
 - Exercise 55 - [Higher and lower weight](https://github.com/felipe-coletti/python-course/blob/main/module-002/exercise-020.py)
 - Exercise 56 - [Analysing people v1.0](https://github.com/felipe-coletti/python-course/blob/main/module-002/exercise-021.py)
