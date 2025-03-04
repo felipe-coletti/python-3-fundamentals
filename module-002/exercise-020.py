@@ -11,4 +11,7 @@ for i in range(0, 5):
     
 weights = sorted(weights)
 
-print('o maior peso é {} Kg e o menor peso é {} Kg.'.format(weights[len(weights) - 1], weights[0]))
+lowerWeight = weights[0]
+higherWeight = weights[len(weights) - 1]
+
+print('o menor peso é {} Kg e o maior peso é {} Kg.'.format(lowerWeight, higherWeight))
