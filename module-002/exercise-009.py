@@ -23,7 +23,7 @@ elif paymentMethod == 3:
     
     totalPrice = price
     
-    print('Valor da parcela: R$ {:.2f}.'.format(totalPrice / 2))
+    print(f'Valor da parcela: R$ {totalPrice / 2:.2f}.')
 elif paymentMethod == 4:
     instalmentsNumber = int(input('Digite o número de parcelas: '))
     
@@ -32,8 +32,8 @@ elif paymentMethod == 4:
     totalPrice = price + 20 / 100 * price
     instalment = totalPrice / instalmentsNumber
     
-    print('Valor da parcela: R$ {:.2f}.'.format(instalment))
+    print(f'Valor da parcela: R$ {instalment:.2f}.')
 else:
     print('Opção inválida.')
 
-print('Total a pagar: R${:.2f}.'.format(totalPrice))
+print(f'Total a pagar: R${totalPrice:.2f}.')

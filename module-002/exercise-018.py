@@ -6,7 +6,7 @@ phrase = input('Digite uma frase: ').strip().replace(' ', '').upper()
 
 invertedPhrase = phrase[::-1]
 
-print('O contrário de {} é {}.'.format(phrase, invertedPhrase))
+print(f'O contrário de {phrase} é {invertedPhrase}.')
 
 if phrase == invertedPhrase:
     print('A frase é um palíndromo.')

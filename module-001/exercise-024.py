@@ -8,4 +8,4 @@ nameParts = name.split()
 
 nameFirstPart = nameParts[0]
 
-print('O nome da cidade começa com Santo? {}'.format(nameFirstPart.lower() == 'santo'))
+print(f'O nome da cidade começa com Santo? {nameFirstPart.lower() == 'santo'}')

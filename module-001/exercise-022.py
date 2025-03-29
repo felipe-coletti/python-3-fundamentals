@@ -8,7 +8,7 @@ names = fullName.split()
 
 firstName = names[0]
 
-print('O nome em letras maiúsculas é {}.'.format(fullName.upper()))
-print('O nome em letras minúsculas é {}.'.format(fullName.lower()))
-print('O nome tem {} letras.'.format(len(fullName.replace(' ', ''))))
-print('O primeiro nome é {} e ele tem {} letras.'.format(firstName, len(firstName)))
+print(f'O nome em letras maiúsculas é {fullName.upper()}.')
+print(f'O nome em letras minúsculas é {fullName.lower()}.')
+print(f'O nome tem {len(fullName.replace(' ', ''))} letras.')
+print(f'O primeiro nome é {firstName} e ele tem {len(firstName)} letras.')

@@ -5,6 +5,6 @@ Crie um programa que leia um número inteiro e mostre na tela se ele é par ou �
 number = int(input('Digite um número inteiro: '))
 
 if number % 2 == 0:
-    print('O número {} é par.'.format(number))
+    print(f'O número {number} é par.')
 else:
-    print('O número {} é impar'.format(number))
+    print(f'O número {number} é impar')

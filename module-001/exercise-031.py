@@ -9,4 +9,4 @@ if distance <= 200:
 else: 
     ticketPrice = distance * 0.45
     
-print('O preço da passagem é R$ {:.2f}'.format(ticketPrice))
+print(f'O preço da passagem é R$ {ticketPrice:.2f}')

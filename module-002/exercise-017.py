@@ -22,11 +22,11 @@ else:
                 
                 numberDivisors += str(i)
             else:
-                numberDivisors += ' e {}'.format(i)
+                numberDivisors += f' e {i}'
             
             divisorsNumber += 1
         
     if divisorsNumber == 2:
-        print('O número {} é um número primo por que só pode ser dividido por 1 e por ele mesmo.'.format(number))
+        print(f'O número {number} é um número primo por que só pode ser dividido por 1 e por ele mesmo.')
     else:
-        print('O número {} não é um número primo porque pode ser dividido por {}.'.format(number, numberDivisors))
+        print(f'O número {number} não é um número primo porque pode ser dividido por {numberDivisors}.')

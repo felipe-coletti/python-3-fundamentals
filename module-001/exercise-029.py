@@ -10,4 +10,4 @@ else:
     speedOverLimit = speed - 80
     finePrice = speedOverLimit * 7
     
-    print('O veículo está {} Km/h acima do limite de velocidade e será multado em R$ {:.2f}.'.format(speedOverLimit, finePrice))
+    print(f'O veículo está {speedOverLimit} Km/h acima do limite de velocidade e será multado em R$ {finePrice:.2f}.')

@@ -7,4 +7,4 @@ b = float(input('Digite o segundo número: '))
 
 c = a + b
 
-print('A soma entre {:.2f} e {:.2f} é igual a {:.2f}.'.format(a, b, c))
+print(f'A soma entre {a:.2f} e {b:.2f} é igual a {c:.2f}.')

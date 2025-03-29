@@ -6,4 +6,4 @@ from math import trunc
 
 number = float(input('Digite um número: '))
 
-print('A parte inteira de {:.2f} é {}.'.format(number, trunc(number)))
+print(f'A parte inteira de {number:.2f} é {trunc(number)}.')

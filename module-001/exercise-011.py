@@ -9,4 +9,4 @@ a = b * h
 
 l = a / 2
 
-print('A área de uma parede de {:.2f}x{:.2f} é de {:.2f} m² e, para pinta-la, será necessário {:.2f} L de tinta.'.format(b, h, a, l))
+print(f'A área de uma parede de {b:.2f}x{h:.2f} é de {a:.2f} m² e, para pinta-la, será necessário {l:.2f} L de tinta.')

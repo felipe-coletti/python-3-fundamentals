@@ -7,4 +7,4 @@ secondGrade = float(input('Digite a segunda nota: '))
 
 average = (firstGrade + secondGrade) / 2
 
-print('A média entre {:.2f} e {:.2f} é igual a {:.2f}.'.format(firstGrade, secondGrade, average))
+print(f'A média entre {firstGrade:.2f} e {secondGrade:.2f} é igual a {average:.2f}.')

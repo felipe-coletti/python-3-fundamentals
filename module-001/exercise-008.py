@@ -11,4 +11,4 @@ dm = m * 10
 cm = m * 100
 mm = m * 1000
 
-print('{:.2f} m equivale a:\n{:.2f} km\n{:.2f} hm\n{:.2f} dam\n{:.2f} dm\n{:.2f} cm\n{:.2f} mm '.format(km, hm, dam, dm, cm, mm))
+print(f'{m:.2f} m equivale a:\n{km:.2f} km\n{hm:.2f} hm\n{dam:.2f} dam\n{dm:.2f} dm\n{cm:.2f} cm\n{mm:.2f} mm')

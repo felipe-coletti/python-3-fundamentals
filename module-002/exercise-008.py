@@ -12,7 +12,7 @@ height = float(input('Digite a altura: '))
 
 bmi = mass / height**2
 
-print('O IMC é de {:.2f} Kg/m².'.format(bmi))
+print(f'O IMC é de {bmi:.2f} Kg/m².')
 
 if bmi > 40:
     print('Status: Obesidade mórbida.')

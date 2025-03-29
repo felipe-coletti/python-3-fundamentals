@@ -5,7 +5,7 @@ Faça um programa que leia o peso de cinco pessoas. No final, mostre qual foi o 
 weights = []
 
 for i in range(0, 5):
-    weight = float(input('Digite o peso da {} pessoa: '.format(i + 1)))
+    weight = float(input(f'Digite o peso da {i + 1} pessoa: '))
     
     weights.append(weight)
     
@@ -14,4 +14,4 @@ weights = sorted(weights)
 lowerWeight = weights[0]
 higherWeight = weights[len(weights) - 1]
 
-print('o menor peso é {} Kg e o maior peso é {} Kg.'.format(lowerWeight, higherWeight))
+print(f'o menor peso é {lowerWeight} Kg e o maior peso é {higherWeight} Kg.')

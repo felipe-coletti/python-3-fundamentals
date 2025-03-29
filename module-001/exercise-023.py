@@ -9,4 +9,4 @@ hundred = number // 100 % 10
 ten = number // 10 % 10
 unit = number // 1 % 10
 
-print('O número {} possui:\n{} UM\n{} C\n{} D\n{} U'.format(number, thousandUnit, hundred, ten, unit))
+print(f'O número {number} possui:\n{thousandUnit} UM\n{hundred} C\n{ten} D\n{unit} U')

@@ -11,4 +11,4 @@ else:
     increase = 15
     newSalary = salary + increase / 100 * salary
 
-print('O salário do funcionário, com um aumento de {}%, vai de R$ {:.2f} para R$ {:.2f}.'.format(increase, salary, newSalary))
+print(f'O salário do funcionário, com um aumento de {increase}%, vai de R$ {salary:.2f} para R$ {newSalary:.2f}.')

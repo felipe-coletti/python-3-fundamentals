@@ -8,6 +8,6 @@ double = number * 2
 triple = number * 3
 squareRoot = number**(1/2)
 
-print('O dobro de {:.2f} é {:.2f}.'.format(number, double))
-print('O triplo de {:.2f} é {:.2f}.'.format(number, triple))
-print('A raiz quadrada de {:.2f} é {:.2f}.'.format(number, squareRoot))
+print(f'O dobro de {number:.2f} é {double:.2f}.')
+print(f'O triplo de {number:.2f} é {triple:.2f}.')
+print(f'A raiz quadrada de {number:.2f} é {squareRoot:.2f}.')

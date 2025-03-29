@@ -6,4 +6,4 @@ real = float(input('Digite um valor em reais: '))
 
 dollar = real / 3.27
 
-print('R$ {:.2f} equivale a USD$ {:.2f}.'.format(real, dollar))
+print(f'R$ {real:.2f} equivale a USD$ {dollar:.2f}.')

@@ -10,7 +10,7 @@ secondGrade = float(input('Digite a segunda nota: '))
 
 average = (firstGrade + secondGrade) / 2
 
-print('A média é {:.2f}.'.format(average))
+print(f'A média é {average:.2f}.')
 
 if average >= 7:
     print('O aluno foi aprovado.')

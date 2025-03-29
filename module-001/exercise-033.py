@@ -18,4 +18,4 @@ if secondNumber > higherNumber:
 if thirdNumber > higherNumber:
     higherNumber = thirdNumber
 
-print('O menor número é {:.2f} e o maior número é {:.2f}.'.format(smallerNumber, higherNumber))
+print(f'O menor número é {smallerNumber:.2f} e o maior número é {higherNumber:.2f}.')

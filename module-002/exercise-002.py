@@ -8,14 +8,14 @@ option = int(input('Digite:\n1 para converter para um número binário;\n2 para 
 if option == 1:
     binaryNumber = bin(decimalNumber)[2:]
     
-    print('O número {} convertido para um número binário é: {}.'.format(decimalNumber, binaryNumber))
+    print(f'O número {decimalNumber} convertido para um número binário é: {binaryNumber}.')
 elif option == 2:
     octalNumber = oct(decimalNumber)[2:]
     
-    print('O número {} convertido para um número octal é: {}.'.format(decimalNumber, octalNumber))
+    print(f'O número {decimalNumber} convertido para um número octal é: {octalNumber}.')
 elif option == 3:
     hexadecimalNumber = hex(decimalNumber)[2:]
     
-    print('O número {} convertido para um número hexadecimal é: {}.'.format(decimalNumber, hexadecimalNumber))
+    print(f'O número {decimalNumber} convertido para um número hexadecimal é: {hexadecimalNumber}.')
 else:
     print('Número inválido.')

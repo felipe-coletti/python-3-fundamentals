@@ -11,4 +11,4 @@ fourthStudent = input('Digite o nome do quarto aluno: ')
 
 students = [firstStudent, secondStudent, thirdStudent, fourthStudent]
 
-print('O aluno sorteado foi {}.'.format(choice(students)))
+print(f'O aluno sorteado foi {choice(students)}.')
