@@ -1,14 +1,14 @@
 from datetime import date
 
-currentYear = date.today().year
+current_year = date.today().year
 
 major = 0
 minor = 0
 
 for i in range(0, 7):
-    birthYear = int(input(f'Digite o ano de nascimento da {i + 1}ª pessoa: '))
+    birth_year = int(input(f'Digite o ano de nascimento da {i + 1}ª pessoa: '))
     
-    if currentYear - birthYear >= 18:
+    if current_year - birth_year >= 18:
         major += 1
     else:
         minor += 1

@@ -1,24 +1,24 @@
 from datetime import date
 
-birthYear = int(input('Digite o ano de nascimento: '))
+birth_year = int(input('Digite o ano de nascimento: '))
 
-currentYear = date.today().year
+current_year = date.today().year
 
-yearsOld = currentYear - birthYear
+years_old = current_year - birth_year
     
-if yearsOld > 18:
-    lagTime = yearsOld - 18
+if years_old > 18:
+    lag_time = years_old - 18
     
-    if lagTime == 1:
-        print(f'O alistamento foi a {lagTime} ano.')
+    if lag_time == 1:
+        print(f'O alistamento foi a {lag_time} ano.')
     else:
-        print(f'O alistamento foi a {lagTime} anos.')
-elif yearsOld == 18:
+        print(f'O alistamento foi a {lag_time} anos.')
+elif years_old == 18:
     print('O alistamento é esse ano.')
 else:
-    timeLeft = 18 - yearsOld
+    time_left = 18 - years_old
     
-    if timeLeft == 1:
-        print(f'Falta {timeLeft} ano para o alistamento.')
+    if time_left == 1:
+        print(f'Falta {time_left} ano para o alistamento.')
     else:
-        print(f'Faltam {timeLeft} anos para o alistamento.')
+        print(f'Faltam {time_left} anos para o alistamento.')

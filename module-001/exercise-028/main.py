@@ -1,10 +1,10 @@
 from random import randint
 
-typedNumber = int(input('Digite um número inteiro entre 0 e 5: '))
+typed_number = int(input('Digite um número inteiro entre 0 e 5: '))
 
-drawnNumber = randint(0, 5)
+drawn_number = randint(0, 5)
 
-if typedNumber == drawnNumber:
-    print(f'Você acertou, o número sorteado foi {drawnNumber}.')
+if typed_number == drawn_number:
+    print(f'Você acertou, o número sorteado foi {drawn_number}.')
 else:
-    print(f'Você errou, o número sorteado foi {drawnNumber}.')
+    print(f'Você errou, o número sorteado foi {drawn_number}.')

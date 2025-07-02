@@ -1,10 +1,10 @@
-fullName = input('Digite um nome completo: ')
+full_name = input('Digite um nome completo: ')
 
-names = fullName.split()
+names = full_name.split()
 
-firstName = names[0]
+first_name = names[0]
 
-print(f'O nome em letras maiúsculas é {fullName.upper()}.')
-print(f'O nome em letras minúsculas é {fullName.lower()}.')
-print(f'O nome tem {len(fullName.replace(' ', ''))} letras.')
-print(f'O primeiro nome é {firstName} e ele tem {len(firstName)} letras.')
+print(f'O nome em letras maiúsculas é {full_name.upper()}.')
+print(f'O nome em letras minúsculas é {full_name.lower()}.')
+print(f'O nome tem {len(full_name.replace(' ', ''))} letras.')
+print(f'O primeiro nome é {first_name} e ele tem {len(first_name)} letras.')

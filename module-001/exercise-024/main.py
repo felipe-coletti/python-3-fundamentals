@@ -1,7 +1,7 @@
 name = input('Digite o nome de uma cidade: ')
 
-nameParts = name.split()
+names = name.split()
 
-nameFirstPart = nameParts[0]
+first_name = names[0]
 
-print(f'O nome da cidade começa com Santo? {nameFirstPart.lower() == 'santo'}')
+print(f'O nome da cidade começa com Santo? {first_name.lower() == 'santo'}')

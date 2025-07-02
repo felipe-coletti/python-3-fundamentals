@@ -1,10 +1,10 @@
-housePrice = float(input('Digite o preço da casa: R$ '))
+house_price = float(input('Digite o preço da casa: R$ '))
 salary = float(input('Digite o salário do comprador: R$ '))
 years = int(input('Digite em quantos anos o comprador pretende pagar a casa: '))
 
 months = years * 12
 
-installment = housePrice / months
+installment = house_price / months
 
 installmentLimit = 30 / 100 * salary
 

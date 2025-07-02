@@ -1,19 +1,19 @@
 from datetime import date
 
-birthYear = int(input('Digite o ano de nascimento: '))
+birth_year = int(input('Digite o ano de nascimento: '))
 
-currentYear = date.today().year
+current_year = date.today().year
 
-if birthYear <= currentYear:
-    yearsOld = currentYear - birthYear
+if birth_year <= current_year:
+    years_old = current_year - birth_year
     
-    if yearsOld > 25:
+    if years_old > 25:
         category = 'Master'
-    elif yearsOld >= 20:
+    elif years_old >= 20:
         category = 'Sénior'
-    elif yearsOld >= 15:
+    elif years_old >= 15:
         category = 'Júnior'
-    elif yearsOld >= 10:
+    elif years_old >= 10:
         category = 'Infantil'
     else:
         category = 'Mirim'

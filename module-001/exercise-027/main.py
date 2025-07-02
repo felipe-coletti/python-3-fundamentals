@@ -1,9 +1,9 @@
-fullName = input('Digite um nome completo: ')
+full_name = input('Digite um nome completo: ')
 
-names = fullName.split()
+names = full_name.split()
 
-firstName = names[0]
-lastName = names[len(names) - 1]
+first_name = names[0]
+last_name = names[len(names) - 1]
 
-print(f'O primeiro nome é {firstName}.')
-print(f'O último nome é {lastName}.')
+print(f'O primeiro nome é {first_name}.')
+print(f'O último nome é {last_name}.')

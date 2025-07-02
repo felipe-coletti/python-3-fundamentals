@@ -2,16 +2,16 @@ from random import randint
 
 options = ['Pedra', 'Papel', 'Tesoura']
 
-firstOption = int(input('Escolha uma opção:\n[1] Pedra.\n[2] Papel.\n[3] Tesoura.'))
+first_option = int(input('Escolha uma opção:\n[1] Pedra.\n[2] Papel.\n[3] Tesoura.'))
 
-secondOption = randint(1, 3)
+second_option = randint(1, 3)
 
-if 0 < firstOption < 4:
-    print(f'Jogador 1 escolheu {options[firstOption - 1]}.\nJogador 2 escolheu {options[secondOption - 1]}.')
+if 0 < first_option < 4:
+    print(f'Jogador 1 escolheu {options[first_option - 1]}.\nJogador 2 escolheu {options[second_option - 1]}.')
     
-    if firstOption - 1 == secondOption or firstOption == 1 and secondOption == 3:
+    if first_option - 1 == second_option or first_option == 1 and second_option == 3:
         print('Você ganhou.')
-    elif secondOption - 1 == firstOption or secondOption == 1 and firstOption == 3:
+    elif second_option - 1 == first_option or second_option == 1 and first_option == 3:
         print('Você perdeu.')
     else:
         print('Empate.')

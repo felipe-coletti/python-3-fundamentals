@@ -7,7 +7,7 @@ for i in range(0, 5):
     
 weights = sorted(weights)
 
-lowerWeight = weights[0]
-higherWeight = weights[len(weights) - 1]
+lower_weight = weights[0]
+higher_weight = weights[len(weights) - 1]
 
-print(f'o menor peso é {lowerWeight} Kg e o maior peso é {higherWeight} Kg.')
+print(f'o menor peso é {lower_weight} Kg e o maior peso é {higher_weight} Kg.')

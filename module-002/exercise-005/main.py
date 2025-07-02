@@ -1,7 +1,7 @@
-firstGrade = float(input('Digite a primeira nota: '))
-secondGrade = float(input('Digite a segunda nota: '))
+first_grade = float(input('Digite a primeira nota: '))
+second_grade = float(input('Digite a segunda nota: '))
 
-average = (firstGrade + secondGrade) / 2
+average = (first_grade + second_grade) / 2
 
 print(f'A média é {average:.2f}.')
 

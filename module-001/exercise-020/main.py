@@ -1,11 +1,11 @@
 from random import shuffle
 
-firstStudent = input('Digite o nome do primeiro aluno: ')
-secondStudent = input('Digite o nome do segundo aluno: ')
-thirdStudent = input('Digite o nome do terceiro aluno: ')
-fourthStudent = input('Digite o nome do quarto aluno: ')
+first_student = input('Digite o nome do primeiro aluno: ')
+second_student = input('Digite o nome do segundo aluno: ')
+third_student = input('Digite o nome do terceiro aluno: ')
+fourth_student = input('Digite o nome do quarto aluno: ')
 
-students = [firstStudent, secondStudent, thirdStudent, fourthStudent]
+students = [first_student, second_student, third_student, fourth_student]
 
 shuffle(students)
 
